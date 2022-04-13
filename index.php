@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 
 $host     = "db433892073.db.1and1.com"; // MySQL-Hostname
-$user     = "dbo433892073"; // Username für MySQL-Datenbank Vorbelegung
+$user     = "dbo433892073"; // Username fÃ¼r MySQL-Datenbank Vorbelegung
 $database = "db433892073"; // Name der MySQL-Datenbank
 $pass     = "opaline35"; // Passwort als Vorbelegung
  
