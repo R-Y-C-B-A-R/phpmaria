@@ -2,10 +2,10 @@
 error_reporting(E_ALL);
 
 
-$host     = "db.host"; // MySQL-Hostname
-$user     = "db.user"; // Username für MySQL-Datenbank Vorbelegung
-$database = "db.name"; // Name der MySQL-Datenbank
-$pass     = "db.password"; // Passwort als Vorbelegung
+$host     = "{db.host}"; // MySQL-Hostname
+$user     = "{db.user}"; // Username für MySQL-Datenbank Vorbelegung
+$database = "{db.name}"; // Name der MySQL-Datenbank
+$pass     = "{db.password}"; // Passwort als Vorbelegung
  
 $mysqli = new mysqli($host, $user, $pass, $database);
 /* check connection */
