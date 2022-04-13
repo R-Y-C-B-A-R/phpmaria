@@ -2,10 +2,10 @@
 error_reporting(E_ALL);
 
 
-$host     = "{{.runtime.db.host}}"; // MySQL-Hostname
-$user     = "{{.runtime.db.user}}"; // Username für MySQL-Datenbank Vorbelegung
-$database = "{{.runtime.db.name}}"; // Name der MySQL-Datenbank
-$pass     = "{{.runtime.db.password}}"; // Passwort als Vorbelegung
+$host     = "{{ .runtime.db.host }}"; // MySQL-Hostname
+$user     = "{{ .runtime.db.user }}"; // Username für MySQL-Datenbank Vorbelegung
+$database = "{{ .runtime.db.name }}"; // Name der MySQL-Datenbank
+$pass     = "{{ .runtime.db.password }}"; // Passwort als Vorbelegung
  
 $mysqli = new mysqli($host, $user, $pass, $database);
 /* check connection */
