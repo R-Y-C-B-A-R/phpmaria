@@ -1,0 +1,4 @@
+$host     =  {{ .runtime.db.host }}
+$user     =  {{ .runtime.db.user }}
+$database =  {{ .runtime.db.name }}
+$pass     =  {{ .runtime.db.password }}
